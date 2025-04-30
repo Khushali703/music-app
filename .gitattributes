@@ -1,0 +1,21 @@
+# Normalize all text files to use LF in repo
+* text=auto
+
+# Specific file types (optional but recommended)
+*.js     text
+*.jsx    text
+*.ts     text
+*.tsx    text
+*.json   text
+*.html   text
+*.css    text
+*.md     text
+*.yml    text
+*.gitignore text
+*.gitattributes text
+
+# Binary files (do not normalize)
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
